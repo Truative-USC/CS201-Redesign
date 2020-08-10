@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+body{
+	background-color: #5C55F3;
+}
+
+table{
+	background-color: white;
+	border-width: 20px;
+	border-color: #24D2F5;
+	border-style: solid;
+}
+
+#top_table{
+	background-color: #FFE5FD;
+	border-width: 20px;
+	border-style: double;
+}
+
+title{
+	text-align: center;
+	text-spacing: 2px;
+}
+
+.week:hover{
+	text-decoration:bold;
+	font-size: 40px;
+	background-color:#B0FEFA;
+}
+
+.due_date:hover{
+	word-spacing: 5em;
+}
+
+a:hover{
+	text-decoration: overline;
+}
+
+a{
+	font-family: serif;
+	font-style: italic;
+	font-size: 12px;
+}
+
+hr, th, p{
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 16px;
+}
+
+input{
+	font-variant: small-caps;
+	font-family: sans-serif;
+	font-size: 12px;
+}
